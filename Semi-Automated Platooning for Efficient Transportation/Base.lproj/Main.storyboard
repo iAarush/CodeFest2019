@@ -32,20 +32,35 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CdP-1n-adH">
+                                <rect key="frame" x="0.0" y="689" width="414" height="47"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Add Profile">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="addProfile:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fpQ-NI-PJf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="1Ki-7a-dgM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="1qI-NR-uc8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CdP-1n-adH" secondAttribute="trailing" id="40b-YF-ZiG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Unq-Nt-PGF" secondAttribute="trailing" constant="50" id="EQm-3o-L4T"/>
+                            <constraint firstItem="CdP-1n-adH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ezr-DM-slK"/>
                             <constraint firstItem="1Ki-7a-dgM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Hst-iS-PKn"/>
                             <constraint firstItem="Unq-Nt-PGF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="ezl-4k-42j"/>
                             <constraint firstItem="Unq-Nt-PGF" firstAttribute="top" secondItem="1Ki-7a-dgM" secondAttribute="bottom" constant="15" id="lXW-NH-nh7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Ki-7a-dgM" secondAttribute="trailing" id="rsy-Ys-vNP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CdP-1n-adH" secondAttribute="bottom" id="wHa-RV-5dD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="speedLabel" destination="Unq-Nt-PGF" id="rsK-5W-mRt"/>
+                        <outlet property="speedLabel" destination="Unq-Nt-PGF" id="KOw-db-UZz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

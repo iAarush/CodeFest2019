@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Semi_Automated_Platooning_for_Efficient_Transportation : NSObject
+@end
+@implementation PodsDummy_Pods_Semi_Automated_Platooning_for_Efficient_Transportation
+@end
