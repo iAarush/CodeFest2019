@@ -117,7 +117,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             setupLocationManager()
             checkLocationAuthorization()
         }
-    
+        
 //extension ViewController: CLLocationManagerDelegate {
 //
 //    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
